@@ -13,5 +13,5 @@ Each file is a self-contained `main` package. You do not need to build a complex
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/msnonari/Go-By-Example.git](https://github.com/msnonari/Go-By-Example.git)
+   git clone https://github.com/msnonari/Go-By-Example.git
    cd Go-By-Example
