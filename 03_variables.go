@@ -1,32 +1,25 @@
-/*
- In Go, variables are explicitly declared and used by the compiler to e.g. check type-correctness of function calls.
-
- var declares 1 or more variables.
- You can declare multiple variables at once.
- Go will infer the type of initialized variables.
- Go will infer the type of initialized variables.
-
- The := syntax is shorthand for declaring and initializing a variable, e.g. for var f string = "apple" in this case.
- This syntax is only available inside functions.
-*/
-
 package main
 
 import "fmt"
 
 func main() {
+	// Declare a variable with an initial value.
 	var a = "initial"
 	fmt.Println(a)
 
+	// Declare multiple variables at once.
 	var b, c int = 1, 2
 	fmt.Println(b, c)
 
+	// Declare a variable with type inference.
 	var d = true
 	fmt.Println(d)
 
+	// Declare a variable without an initial value.
 	var e int
 	fmt.Println(e)
 
+	// Declare a short variable declaration.
 	f := "apple"
 	fmt.Println(f)
 }
