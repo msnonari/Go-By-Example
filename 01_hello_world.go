@@ -1,8 +1,3 @@
-// main.go
-//
-// This is the entry point of our Go program.
-//
-// It prints "Hello World!" to the console.
 package main
 
 import "fmt"
